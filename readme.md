@@ -27,7 +27,7 @@ The limit is not in the code. It used to be but is no more. It is instead stored
 The script reads the contents of register 2007 (should be 16) and writes 32 into it. 
 Be advised: the script may fail. Several times. Just retry, it will succeed eventually. 
 
-7. run the script by typing python tryToSetTo32A.py
+7. multiple times: run the script by typing python tryToSetTo32A.py If it reads 32 as Current limit, it succeeded.
 
 
 
