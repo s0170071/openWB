@@ -67,4 +67,6 @@ print('new current limit value: [A] ', rq.registers)
 There are a number of places that need to be configured in the openWB software. 
 If it acts up, you have to reset it (factory set up) and configure from scratch. The reason is that openWB stores a lot of parameters in MQTT and there are some hickups if an old value is persisted... Also it totally fails if you try to set a root user when you write the image (e.g. with RPI imager)
 OpenWB GitHub repo is [here](https://github.com/orgs/openWB/repositories).
- 
+
+
+ <meta name="google-site-verification" content="reKmPOOvQX3y7JA18T9k1UYb4AYvKlBo_JzQFPUbw_8" />
