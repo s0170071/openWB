@@ -27,7 +27,7 @@ The limit is not in the code. It used to be but is no more. It is instead stored
 The script reads the contents of register 2007 (should be 16) and writes 32 into it. 
 Be advised: the script may fail. Several times. Just retry, it will succeed eventually. 
 
-7. run the script by typing python tryToSetTo32A.py
+7. multiple times: run the script by typing python tryToSetTo32A.py If it reads 32 as Current limit, it succeeded.
 
 
 
@@ -66,4 +66,5 @@ print('new current limit value: [A] ', rq.registers)
 ### set up openWB
 There are a number of places that need to be configured in the openWB software. 
 If it acts up, you have to reset it (factory set up) and configure from scratch. The reason is that openWB stores a lot of parameters in MQTT and there are some hickups if an old value is persisted... Also it totally fails if you try to set a root user when you write the image (e.g. with RPI imager)
+OpenWB GitHub repo is [here](https://github.com/orgs/openWB/repositories).
  
